@@ -6,7 +6,7 @@ yum install -y nodejs # se instala node
 
 
 # se agrega el contexto Chanspy
-cat << EOF >> /etc/asterisk/extensions_override_issabelpbx.conf  
+cat << 'EOF' >> /etc/asterisk/extensions_override_issabelpbx.conf  
 
 [app-chanspy]
 include => app-chanspy-custom
