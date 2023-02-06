@@ -32,14 +32,14 @@ asterisk -rx 'core restart now'
 
 mkdir /usr/local/Chanspy
 
-wget https://github.com/kenny2223/Install/blob/main/ChanSpy-1.tar.gz?raw=true -O ChanSpy-1.tar.gz
+wget https://github.com/kenny2223/Install/blob/main/ChanSpy-2.tar.gz?raw=true -O ChanSpy-2.tar.gz
 
 
-tar xzvf ChanSpy-1.tar.gz
-cp -r ./ChanSpy-1/* /usr/local/Chanspy
+tar xzvf ChanSpy-2.tar.gz
+cp -r ./ChanSpy-2/* /usr/local/Chanspy
 
-rm -rf  ChanSpy-1.tar.gz
-rm -rf  ChanSpy-1
+rm -rf  ChanSpy-2.tar.gz
+rm -rf  ChanSpy-2
 
 
 cd /usr/local/Chanspy
